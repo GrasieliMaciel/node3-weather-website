@@ -98,5 +98,5 @@ app.get('*', (req, res) => {
 })
 
 app.listen(port, () => {
-    console.log('Server is up on port ' + port);//Heroku sets the port in prod
+    console.log('Server is up on port ' + port);//Heroku sets the port in prod - in dev we don't have this
 })
